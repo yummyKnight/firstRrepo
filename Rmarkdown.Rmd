@@ -1,0 +1,37 @@
+---
+title: "Firtst Markdown doc"
+author: "Nick"
+date: "26 03 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Headerlvl1
+## Headerlvl2
+### Headerlvl3
+
+*Italic*
+
+**Bold**
+
+List:
+
+
+- first point
+- second point
+- third point
+
+
+## Code:
+```{r cars}
+summary(cars)
+```
+
+## Plots:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
